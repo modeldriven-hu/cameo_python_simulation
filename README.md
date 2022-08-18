@@ -1,4 +1,10 @@
-# cameo_python_simulation
+# Accessing a server written in Python from Cameo activity diagram simulation
+
+## Problem statement
+
+During simulation some members of the Systems Engineering Professionals Discord server realized that although it is possible to create an opaque action containing Python code in Cameo, but they are unable to use external libraries (like numpy). We came up with an idea how to solve this problem: create a separate application in Python exposing an HTTP interface and write custom opaque actions in Cameo for communication purposes.
+
+## Explanation
 
 This is a Proof Of Concept of calling an HTTP server written in Python from Cameo during simulation.
 
