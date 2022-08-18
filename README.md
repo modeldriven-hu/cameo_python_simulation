@@ -16,3 +16,17 @@ In the model (see model/PythonSimulation.mdzip) we have custom opaque actions th
 - Receive and process the response received from the server
 
 This is strictly a proof of concept and not intended to be used directly in a real system.
+
+## Installation
+
+Requirements:
+
+ - Python latest
+ - PIP latest
+ 
+Execute the following commands:
+
+- `pip install -r requirements.txt` to install all the requirements
+- `python app.py` to start the application
+
+To check whether the application is running, enter `http://localhost:5000/` in your browser and see the response.
