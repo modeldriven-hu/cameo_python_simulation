@@ -1,2 +1,2 @@
 # cameo_python_simulation
-Simulation in Cameo connected to Python
+Using a python server to provide functionality used for simulation
